@@ -74,6 +74,6 @@ clearSectorOnLose: false
 allowWaves: true
 icon: planet
 defaultCore: core-nucleus
-parent: 1-0-themelight
-solarSystem: 1-0-themelight
+parent: 1-young-star
+solarSystem: 1-young-star
 itemWhitelist: [ copper, lead, coal ]
