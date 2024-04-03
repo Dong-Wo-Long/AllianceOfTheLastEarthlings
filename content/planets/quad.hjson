@@ -1,0 +1,173 @@
+faceTarget: true
+hitSize: 36
+
+rotateSpeed: 0.8
+buildSpeed: 2.5
+mineSpeed: 5
+health: 8100
+accel: 0.075
+mineTier: 3
+speed: 1.15
+drag: 0.021
+armor: 15
+
+trailLength: 16.5
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 75
+
+targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
+
+ammoType: {
+    type: PowerAmmoType
+    totalPower: 6300
+}
+
+weapons: [
+{
+    minShootVelocity: 0.01
+    soundPitchMin: 1
+    mirror: false
+    x: 0
+    y: 0
+
+    reload: 55
+
+    shootSound: plasmadrop
+
+bullet: {
+    type: BasicBulletType
+    ignoreRotation: true
+    keepVelocity: false
+    collidesAir: false
+    sprite: large-bomb
+    collides: false
+    shootCone: 180
+    maxRange: 30
+    shrinkX: 0.7
+    shrinkY: 0.7
+    hitShake: 4
+    height: 30
+    width: 30
+    spin: 2
+
+    splashDamageRadius: 210
+    splashDamage: 550
+    healPercent: 15
+    lifetime: 70
+    speed: 0
+
+    hitEffect: massiveExplosion
+    despawnEffect: greenBomb
+    ejectEffect: none
+
+    splashDamageRadius: 80
+
+    frontColor: ffffff
+    mixColorTo: ffffff
+    backColor: 84f491
+
+    hitSound: plasmaboom
+}
+    }
+
+{
+    name: plasma-anti-air
+
+    layerOffset: -0.001
+    rotationLimit: 30
+    baseRotation: 15
+    shootCone: 30
+    rotate: true
+    shake: 0.32
+    x: 6.5
+    y: 18.8
+
+    inaccuracy: 9
+    reload: 3.2
+
+    shootSound: lasershoot
+
+bullet: {
+    type: LaserBoltBulletType
+    collidesTeam: true
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.25
+
+    healPercent: 0.32
+    lifetime: 60
+    speed: 5.25
+    damage: 9
+
+    frontColor: ffffff
+    backColor: 84f491
+}
+    }
+
+{
+name: plasma-large-missiles
+
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 45
+    rotateSpeed: 2.25
+    baseRotation: -15
+    autoTarget: true
+    alternate: true
+    shootCone: 15
+    rotate: true
+    recoil: 2
+    shake: 3
+    x: 23
+    y: -1
+
+    inaccuracy: 30
+    reload: 240
+
+    ejectEffect: casing1
+    shootSound: missile
+
+shoot: { 
+    shotDelay: 21
+    shots: 9
+    }
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    despawnShake: 5
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    hitShake: 5
+    height: 14
+    width: 8
+
+    splashDamageRadius: 42
+    splashDamage: 81
+    homingPower: 0
+    homingRange: 0
+    healPercent: 3
+    weaveScale: 3
+    lifetime: 120
+    weaveMag: 5
+    damage: 121
+    speed: 1.2
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffffff
+    trailColor: 62ae7f
+    trailInterval: 12
+    backColor: 62ae7f
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 27
+}
+    }
+]
