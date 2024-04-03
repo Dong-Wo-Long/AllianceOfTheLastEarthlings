@@ -1,0 +1,35 @@
+localizedName: Сектор: Лемиум-Прайм
+solarSystem: 2-lemium-prime
+icon: commandRally
+iconColor: 42aaff
+
+orbitRadius: 12000
+orbitSpacing: 8
+
+hasAtmosphere: false
+accessible: false
+drawOrbit: false
+tidalLock: true
+visible: true
+parent: sun
+bloom: true
+
+mesh: {
+    type: SunMesh
+    persistence: 0.6
+    divisions: 3
+    octaves: 4
+    mag: 0.5
+    scl: 1
+    pow: 1
+
+    colorScale: 1
+
+colors: [
+    ffe06f
+    ffe790
+    ffedae
+    fff8c8
+    ffe53b
+]
+    }
