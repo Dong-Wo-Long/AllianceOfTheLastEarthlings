@@ -26,10 +26,10 @@ mesh: {
     colorScale: 1
 
 colors: [
-    ffe06f
-    ffe790
-    ffedae
-    fff8c8
-    ffe53b
+    42aaff
+    75c1ff
+    87cefa
+    7fc7ff
+    b3deff
 ]
     }
