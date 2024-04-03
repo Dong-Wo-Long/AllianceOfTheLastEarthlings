@@ -1,0 +1,36 @@
+localizedName: Лемиум-Прайм
+solarSystem: 2-0-lemium-prime
+parent: sun
+
+orbitRadius: 12000
+orbitSpacing: 8
+
+hasAtmosphere: false
+accessible: false
+drawOrbit: false
+tidalLock: true
+visible: true
+bloom: true
+
+icon: commandRally
+iconColor: 42aaff
+
+mesh: {
+    type: SunMesh
+    persistence: 3.2
+    divisions: 7
+    octaves: 6
+    mag: 2.5
+    scl: 5
+    pow: 5
+
+    colorScale: 2
+
+colors: [
+    ffe06f
+    ffe790
+    ffedae
+    fff8c8
+    ffe53b
+]
+    }

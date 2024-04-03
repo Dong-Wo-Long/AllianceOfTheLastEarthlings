@@ -1,0 +1,77 @@
+localizedName: Лантрос
+solarSystem: 1-0-young-star
+parent: 1-0-young-star
+
+allowLaunchToNumbered: true
+allowWaveSimulation: false
+clearSectorOnLose: false
+updateLighting: false
+alwaysUnlocked: true
+hasAtmosphere: true
+accessible: false
+allowWaves: false
+drawOrbit: true
+visible: true
+bloom: true
+
+atmosphereColor: dbefff
+atmosphereRadOut: 0.3
+atmosphereRadIn: 0
+iconColor: 363f9a
+icon: planet
+
+defaultCore: core-nucleus
+orbitSpacing: 12
+sectorSeed: 110
+sectorSize: 1
+minZoom: 0.25
+radius: 1.5
+
+itemWhitelist: [ copper, lead, coal ]
+
+mesh: {
+    type: NoiseMesh
+    persistence: 0.8
+    divisions: 2
+    radius: 1.2
+    octaves: 3
+    scale: 1
+    seed: 90
+    mag: 1.5
+
+    color1: 363f9a
+    color2: 827de9
+}
+cloudMesh: {
+    type: HexSkyMesh
+    persistence: 0.8
+    divisions: 4
+    radius: 0.075
+    thresh: 0.45
+    octaves: 3
+    speed: 0.3
+    seed: 110
+    scl: 1
+
+    color: e6e6e6
+}
+generator: {
+    min: 1
+    max: 1
+    octaves: 2
+    persistence: 0.4
+    scale: 30
+    mag: 0.4
+    thresh: 1
+    foct: 3
+    fmag: 0.5
+    fscl: 50
+    fper: 0.6
+    radMin: 600
+    radMax: 600
+    stoneChance: 0
+    iceChance: 0.5
+    carbonChance: 1
+    berylChance: 0
+    ferricChance: 0
+}

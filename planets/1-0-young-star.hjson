@@ -1,0 +1,36 @@
+localizedName: Молодая звезда
+solarSystem: 1-0-young-star
+parent: sun
+
+orbitRadius: 10000
+orbitSpacing: 6
+
+hasAtmosphere: false
+accessible: false
+drawOrbit: false
+tidalLock: true
+visible: true
+bloom: true
+
+icon: commandRally
+iconColor: 42aaff
+
+mesh: {
+    type: SunMesh
+    persistence: 0.6
+    divisions: 3
+    octaves: 4
+    mag: 0.5
+    scl: 1
+    pow: 1
+
+    colorScale: 1
+
+colors: [
+    42aaff
+    75c1ff
+    87cefa
+    7fc7ff
+    b3deff
+]
+    }

@@ -1,0 +1,77 @@
+localizedName: Версар
+solarSystem: 2-0-lemium-prime
+parent: 2-0-lemium-prime
+
+allowLaunchToNumbered: true
+allowWaveSimulation: false
+clearSectorOnLose: false
+updateLighting: false
+alwaysUnlocked: true
+hasAtmosphere: true
+accessible: false
+allowWaves: false
+drawOrbit: true
+visible: true
+bloom: true
+
+atmosphereColor: 877d72
+atmosphereRadOut: 0.3
+atmosphereRadIn: 0
+iconColor: b0a59e
+icon: planet
+
+defaultCore: core-nucleus
+orbitSpacing: 12
+sectorSeed: 120
+sectorSize: 1
+minZoom: 0.25
+radius: 1.8
+
+itemWhitelist: [ copper, lead, coal ]
+
+mesh: {
+    type: NoiseMesh
+    persistence: 0.8
+    divisions: 3
+    radius: 1.5
+    octaves: 3
+    scale: 1
+    seed: 90
+    mag: 1.5
+
+    color1: 3c4448
+    color2: 675b53
+}
+cloudMesh: {
+    type: HexSkyMesh
+    persistence: 0.8
+    divisions: 4
+    radius: 0.18
+    thresh: 0.5
+    octaves: 3
+    speed: 0.4
+    seed: 120
+    scl: 1
+
+    color: b5a194
+}
+generator: {
+    min: 1
+    max: 1
+    octaves: 2
+    persistence: 0.4
+    scale: 30
+    mag: 0.4
+    thresh: 1
+    foct: 3
+    fmag: 0.5
+    fscl: 50
+    fper: 0.6
+    radMin: 600
+    radMax: 600
+    stoneChance: 0
+    iceChance: 0.5
+    carbonChance: 1
+    berylChance: 0
+    ferricChance: 0
+}
