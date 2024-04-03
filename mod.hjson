@@ -1,0 +1,14 @@
+    repo: "Dong-Wo-Long/EnhancementTurrets"
+
+    name: "enhancement-turrets"
+    displayName: "Enhancement Turrets"
+    author: "D&X"
+    description: "This is a mod campaign called ALE, or more simply, a collection of my maps, but on planets with EU mods and additions to it.\n\nStoryline:\n\n«You go in search of your father, who was last discovered in the alliance, but there is only one way to get there - to help in the fight against the Legion. How will this whole story turn out and what will it lead to in the end?»"
+    version: v1.0.0 beta
+    subtitle: "ALE | v1.0.0 beta"
+
+    minGameVersion: 146
+
+    hideBrowser: false
+
+    hidden: true
