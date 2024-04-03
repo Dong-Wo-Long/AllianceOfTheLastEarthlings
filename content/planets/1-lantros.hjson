@@ -3,7 +3,7 @@ name: Лантрос
 parent: sun
 accessible: false
 hasAtmosphere: true
-atmosphereColor: ff3737
+atmosphereColor: dbefff
 alwaysUnlocked: true
 minZoom: 0.1
 mesh: {
