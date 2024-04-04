@@ -17,7 +17,7 @@ bloom: true
 atmosphereColor: dbefff
 atmosphereRadOut: 0.3
 atmosphereRadIn: 0
-iconColor: 363f9a
+iconColor: 8bb7d4
 icon: planet
 
 defaultCore: core-nucleus
