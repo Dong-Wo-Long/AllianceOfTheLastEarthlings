@@ -6,7 +6,7 @@ allowLaunchToNumbered: true
 allowWaveSimulation: false
 clearSectorOnLose: false
 updateLighting: false
-alwaysUnlocked: true
+alwaysUnlocked: false
 hasAtmosphere: true
 accessible: false
 allowWaves: false
