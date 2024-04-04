@@ -20,10 +20,11 @@ atmosphereRadIn: 0
 iconColor: 8bb7d4
 icon: planet
 
-defaultCore: core-nucleus
+defaultCore: core-bastion
 orbitSpacing: 12
-sectorSeed: 110
-sectorSize: 1
+startSector: 77
+sectorSeed: 32
+sectorSize: 2
 minZoom: 0.25
 radius: 1.5
 
