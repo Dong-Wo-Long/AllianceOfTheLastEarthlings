@@ -1,0 +1,48 @@
+localizedName: Станция Альянса
+generator: AsteroidGenerator
+solarSystem: 1-0-young-star
+parent: 1-1-lantros
+
+allowLaunchToNumbered: false
+allowWaveSimulation: false
+clearSectorOnLose: false
+updateLighting: false
+alwaysUnlocked: true
+hasAtmosphere: true
+accessible: false
+allowWaves: false
+drawOrbit: true
+visible: true
+bloom: true
+
+iconColor: 8bb7d4
+icon: planet
+
+defaultCore: core-bastion
+orbitRadius: 4
+startSector: 0
+sectorSeed: 32
+sectorSize: 1
+minZoom: 1
+radius: 0.25
+
+allowSectorInvasion: false
+iconColor: 5b6567
+
+itemWhitelist: [ copper, lead, coal, titanium, thorium, tungsten ]
+
+mesh: {
+    type: NoiseMesh
+    persistence: 0.6
+    divisions: 3
+    thresh: 0.04
+    radius: 0.175
+    octaves: 4
+    scale: 1.2
+    cper: 1.4
+    coct: 4
+    mag: 4
+
+    color1: 5b6567
+    color2: 282b34
+}
