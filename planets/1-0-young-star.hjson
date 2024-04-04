@@ -24,7 +24,7 @@ mesh: {
     scl: 1
     pow: 1
 
-    colorScale: 1
+    colorScale: 1.2
 
 colors: [
     42aaff
